@@ -1,3 +1,6 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         //vetor
@@ -26,6 +29,6 @@ public class Main {
         for (int j = 0; j < letras1.length; j++){
             System.out.println(letras1[j]);
         }
-
+        System.out.println(Arrays.toString(letras1)); // mostra do vetor sem precisar criar um laço
     }
 }
